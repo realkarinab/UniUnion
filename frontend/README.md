@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Creators
+
+This project was created for the HackUTD hackathon by Nivedha, Bhuvana, Karina, & Susan
+
 ## Available Scripts
 
 In the project directory, you can run:
