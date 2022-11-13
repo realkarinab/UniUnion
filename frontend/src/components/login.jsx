@@ -5,7 +5,7 @@ import { FcGoogle } from 'react-icons/fc';
 import friendVideo from '../assets/friends.mp4';
 import logo from '../assets/titleLogoWhite.png';
 
-//import { client } from '../client';
+import { client } from '../client';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -18,9 +18,9 @@ const Login = () => {
       userName: name,
       image: imageUrl,
     };
-    // client.createIfNotExists(doc).then(() => {
-    //   navigate('/', { replace: true });
-    // });
+    client.createIfNotExists(doc).then(() => {
+      navigate('/', { replace: true });
+    });
   };
 
   return (
